@@ -1,5 +1,5 @@
 # Tell RSpec where to find the production code we've written to pass the tests
-require './greeter'
+require 'greeter'
 
 # 1. Set up the specification, trying to describe something.
 describe 'Greeter' do
