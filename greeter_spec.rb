@@ -8,6 +8,10 @@ describe 'Greeter' do
     # 3. Inside the it block add the test code - the actual expectation we're setting
     expect(greet('Rico')).to eq 'Hello, Rico, how are you today?'
   end
+  # 4. Add a second example to test your most simple version of production code
+  it 'greets Chloë' do
+    expect(greet('Chloë')).to eq 'Hello, Chloë, how are you today?'
+  end
 end
 =begin
 # This is called Given, When, Then in parts.
